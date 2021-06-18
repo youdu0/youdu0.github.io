@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>尤多</title>
+    <link>https://youdu0.github.io/</link>
+    <description>Recent content on 尤多</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jun 2021 03:27:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://youdu0.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://youdu0.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 19 Jun 2021 03:27:23 +0800</pubDate>
+      
+      <guid>https://youdu0.github.io/posts/my-first-post/</guid>
+      <description>package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;希望这次Hugo-GithubPages成功&amp;#34;) } </description>
+    </item>
+    
+  </channel>
+</rss>
