@@ -14,7 +14,7 @@
             <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
             
             <guid>https://youdu0.github.io/timeline/%E7%BB%88%E4%BA%8E%E5%AE%8C%E6%88%90%E4%BA%86/</guid>
-            <description>hugo使用theme,并push到github pages上  在linux mint上安装hugo. sudo apt-get install hugo  创建站点. hugo new site blog  使用主题. cd blog git init git submodule add https://github.com/RainerChiang/simpleness.git themes/simpleness cp themes/simpleness/exampleSite/config.toml ./ cp -r themes/simpleness/exampleSite/content ./  启动hugo server,看看效果 hugo server -D  构建静态网页 hugo -D    </description>
+            <description>hugo使用theme,并push到github pages上  在linux mint上安装hugo. sudo apt-get install hugo  创建站点. hugo new site blog  使用主题. cd blog git init git submodule add https://github.com/RainerChiang/simpleness.git themes/simpleness cp themes/simpleness/exampleSite/config.toml ./ cp -r themes/simpleness/exampleSite/content ./  启动hugo server,看看效果 hugo server -D  构建静态网页 hugo -D  克隆username.github.io到本地 git clone https://github.com/yourusername/yourusername.github.io  把前面构建的静态网页copy到刚才克隆的库中 cd yourusername.github.io cp ~/blog/public/* ./ -rf  提交 git add --all git commit -m &amp;#34;hugo hosts on github pages&amp;#34; git push -u origin main  浏览器中输入https://yourusername.</description>
             <content type="html"><![CDATA[<h2 id="hugo使用theme并push到github-pages上">hugo使用theme,并push到github pages上</h2>
 <ol>
 <li>在linux mint上安装hugo.
@@ -37,7 +37,19 @@ cp -r themes/simpleness/exampleSite/content ./
 <li>构建静态网页
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo -D
 </code></pre></div></li>
-<li></li>
+<li>克隆username.github.io到本地
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/yourusername/yourusername.github.io
+</code></pre></div></li>
+<li>把前面构建的静态网页copy到刚才克隆的库中
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd yourusername.github.io
+cp ~/blog/public/* ./ -rf
+</code></pre></div></li>
+<li>提交
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add --all
+git commit -m <span style="color:#e6db74">&#34;hugo hosts on github pages&#34;</span>
+git push -u origin main
+</code></pre></div></li>
+<li>浏览器中输入<code>https://yourusername.github.io</code>验证一下我们提交的东西是否已经发布成功</li>
 </ol>
 ]]></content>
         </item>

@@ -17,7 +17,7 @@
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://youdu0.github.io/timeline/%E7%BB%88%E4%BA%8E%E5%AE%8C%E6%88%90%E4%BA%86/</guid>
-      <description>hugo使用theme,并push到github pages上  在linux mint上安装hugo. sudo apt-get install hugo  创建站点. hugo new site blog  使用主题. cd blog git init git submodule add https://github.com/RainerChiang/simpleness.git themes/simpleness cp themes/simpleness/exampleSite/config.toml ./ cp -r themes/simpleness/exampleSite/content ./  启动hugo server,看看效果 hugo server -D  构建静态网页 hugo -D    </description>
+      <description>hugo使用theme,并push到github pages上  在linux mint上安装hugo. sudo apt-get install hugo  创建站点. hugo new site blog  使用主题. cd blog git init git submodule add https://github.com/RainerChiang/simpleness.git themes/simpleness cp themes/simpleness/exampleSite/config.toml ./ cp -r themes/simpleness/exampleSite/content ./  启动hugo server,看看效果 hugo server -D  构建静态网页 hugo -D  克隆username.github.io到本地 git clone https://github.com/yourusername/yourusername.github.io  把前面构建的静态网页copy到刚才克隆的库中 cd yourusername.github.io cp ~/blog/public/* ./ -rf  提交 git add --all git commit -m &amp;#34;hugo hosts on github pages&amp;#34; git push -u origin main  浏览器中输入https://yourusername.</description>
     </item>
     
   </channel>
