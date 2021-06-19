@@ -6,18 +6,18 @@
     <description>Recent content on 尤多</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jun 2021 03:27:23 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://youdu0.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://youdu0.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 19 Jun 2021 03:27:23 +0800</pubDate>
+      <title>hello hugo</title>
+      <link>https://youdu0.github.io/timeline/%E7%BB%88%E4%BA%8E%E5%AE%8C%E6%88%90%E4%BA%86/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://youdu0.github.io/posts/my-first-post/</guid>
-      <description>package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;希望这次Hugo-GithubPages成功&amp;#34;) } </description>
+      <guid>https://youdu0.github.io/timeline/%E7%BB%88%E4%BA%8E%E5%AE%8C%E6%88%90%E4%BA%86/</guid>
+      <description>hugo使用theme,并push到github pages上  在linux mint上安装hugo. sudo apt-get install hugo  创建站点. hugo new site blog  使用主题. cd blog git init git submodule add https://github.com/RainerChiang/simpleness.git themes/simpleness cp themes/simpleness/exampleSite/config.toml ./ cp -r themes/simpleness/exampleSite/content ./  启动hugo server,看看效果 hugo server -D  构建静态网页 hugo -D    </description>
     </item>
     
   </channel>
