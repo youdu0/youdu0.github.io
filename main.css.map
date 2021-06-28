@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/youduo/blog/fourth-improvement",
+	"sourceRoot": "/home/youduo/github-repo/hugo",
 	"sources": [
 		"themes/timeline/assets/scss/main.scss",
 		"themes/timeline/assets/scss/_normalize.scss",
