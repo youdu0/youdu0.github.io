@@ -5,80 +5,51 @@
         <description>Recent content in Timelines on 尤多</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://youdu0.github.io/timeline/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>适合自己的就是好的</title>
-            <link>https://youdu0.github.io/timeline/%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B0%B1%E6%98%AF%E5%A5%BD%E7%9A%84/</link>
-            <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
-            
-            <guid>https://youdu0.github.io/timeline/%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B0%B1%E6%98%AF%E5%A5%BD%E7%9A%84/</guid>
-            <description>在自己这个老的笔记本上，尝试了很多个linux发行版，很多都不错，最终还是选择了pop!_os。
-没有最好，适合自己的就是好的。</description>
-            <content type="html"><![CDATA[<p>在自己这个老的笔记本上，尝试了很多个linux发行版，很多都不错，最终还是选择了pop!_os。</p>
-<p>没有最好，适合自己的就是好的。</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>我所理解的人生的意义</title>
-            <link>https://youdu0.github.io/timeline/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E8%AE%A4%E8%AF%86%E7%9A%84%E6%84%8F%E4%B9%89/</link>
-            <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
-            
-            <guid>https://youdu0.github.io/timeline/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E8%AE%A4%E8%AF%86%E7%9A%84%E6%84%8F%E4%B9%89/</guid>
-            <description>玩了这么多年，应该是精神的贫瘠，内心的空虚，所以时不时就会对人生有很多思考。产生这些想法也是正常的，一个人要是真忙起来，也没时间想这些东西。
-周总理为中华名族崛起而读书，从小就有了清晰的人生目标，到因病去世，一生为了国家。突然想到这件事情，让自己对人生有了新的认识。
-去做，认真去做，努力去做，找个好方法做，并坚持下去。</description>
-            <content type="html"><![CDATA[<p>玩了这么多年，应该是精神的贫瘠，内心的空虚，所以时不时就会对人生有很多思考。产生这些想法也是正常的，一个人要是真忙起来，也没时间想这些东西。</p>
-<p>周总理为中华名族崛起而读书，从小就有了清晰的人生目标，到因病去世，一生为了国家。突然想到这件事情，让自己对人生有了新的认识。</p>
-<p>去做，认真去做，努力去做，找个好方法做，并坚持下去。</p>
-]]></content>
-        </item>
         
         <item>
             <title>hugo &#43; github pages</title>
             <link>https://youdu0.github.io/timeline/hugo-&#43;-github-pages/</link>
-            <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
             
             <guid>https://youdu0.github.io/timeline/hugo-&#43;-github-pages/</guid>
-            <description>在linux mint上安装hugo sudo apt-get install hugo  创建站点 hugo new site blog  使用主题 cd blog git init git submodule add https://github.com/RainerChiang/simpleness.git themes/simpleness cp themes/simpleness/exampleSite/config.toml ./ cp -r themes/simpleness/exampleSite/content ./  启动 hugo server 看看效果 hugo server -D  构建静态网页 hugo -D  克隆username.github.io到本地 git clone https://github.com/yourusername/yourusername.github.io  把前面构建的静态网页copy到刚才克隆的库中 cd yourusername.github.io cp ~/blog/public/* ./ -rf  提交 git add --all git commit -m &amp;#34;hugo hosts on github pages&amp;#34; git push -u origin main  浏览器中输入https://yourusername.</description>
-            <content type="html"><![CDATA[<ol>
-<li>在linux mint上安装hugo
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install hugo
-</code></pre></div></li>
-<li>创建站点
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site blog
-</code></pre></div></li>
-<li>使用主题
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd blog
-git init
-git submodule add https://github.com/RainerChiang/simpleness.git themes/simpleness
+            <description>wget https://github.com/gohugoio/hugo/releases/download/v0.84.3/hugo_extended_0.84.3_Linux-64bit.deb sudo dpkg -i hugo_extended_0.84.3_Linux-64bit.deb hugo new site blog cd blog git init git submodule add https://github.com/s4n7h0/hugo-theme-timeline.git themes/timeline cp themes/timeline/exampleSite/config.toml ./ cp -r themes/timeline/exampleSite/content/ ./ hugo server -D # 看看效果，然后在这个基础上改改 hugo -D git clone https://github.com/username/username.github.io.git cd username.github.io cp ~/blog/public* ./ -rf git add --all git commit -m &amp;#34;hugo hosts on github pages&amp;#34; git push -u origin main # 备份blog tar -czf blog.tar.gz ./* # at blog/ git clone https://github.com/username/backup-repo.git cd backup-repo mv blo.</description>
+            <content type="html"><![CDATA[<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget  https://github.com/gohugoio/hugo/releases/download/v0.84.3/hugo_extended_0.84.3_Linux-64bit.deb
+sudo dpkg -i hugo_extended_0.84.3_Linux-64bit.deb
 
-cp themes/simpleness/exampleSite/config.toml ./
-cp -r themes/simpleness/exampleSite/content ./
-</code></pre></div></li>
-<li>启动 hugo server 看看效果
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server -D
-</code></pre></div></li>
-<li>构建静态网页
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo -D
-</code></pre></div></li>
-<li>克隆username.github.io到本地
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/yourusername/yourusername.github.io
-</code></pre></div></li>
-<li>把前面构建的静态网页copy到刚才克隆的库中
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd yourusername.github.io
-cp ~/blog/public/* ./ -rf
-</code></pre></div></li>
-<li>提交
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add --all
+hugo new site blog
+cd blog
+git init
+git submodule add  https://github.com/s4n7h0/hugo-theme-timeline.git themes/timeline
+
+cp themes/timeline/exampleSite/config.toml ./
+cp -r themes/timeline/exampleSite/content/ ./
+
+hugo server -D <span style="color:#75715e"># 看看效果，然后在这个基础上改改</span>
+
+hugo -D
+
+git clone https://github.com/username/username.github.io.git
+
+cd username.github.io
+cp ~/blog/public* ./ -rf
+
+git add --all
 git commit -m <span style="color:#e6db74">&#34;hugo hosts on github pages&#34;</span>
 git push -u origin main
-</code></pre></div></li>
-<li>浏览器中输入<code>https://yourusername.github.io</code>验证一下我们提交的东西是否已经发布成功</li>
-</ol>
-]]></content>
+
+<span style="color:#75715e"># 备份blog</span>
+tar -czf blog.tar.gz ./* <span style="color:#75715e"># at blog/</span>
+git  clone https://github.com/username/backup-repo.git
+cd backup-repo
+mv blo.tar.gz ./
+git add --all
+git commit -m <span style="color:#e6db74">&#34;backup blog&#34;</span>
+git push -u origin main
+
+<span style="color:#75715e"># it&#39;s done!!!</span>
+</code></pre></div>]]></content>
         </item>
         
     </channel>
